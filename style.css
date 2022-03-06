@@ -15,6 +15,15 @@ h1{
     padding: 5px 20px;
     border-radius: 10px;
 }
+.top-banner{
+    background-image: url( top-banner.png );
+    background-repeat: no-repeat;
+    padding-left: 8%;
+}
+.dream-big{
+    background-image: url( dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;}
 .flexible-container{
     display:flex;}
     .half-width img{
@@ -24,3 +33,40 @@ h1{
         width: 700px;
         padding: 60px;  
     }
+    .scnd-width{
+        width: 1000px;
+        padding: 90px ;
+    }
+        .scnd-width img{
+            width: 100%;
+    }
+    .bottom-section{
+        background-image: url( images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 200px;
+    }
+    .bottom-box{
+        box-shadow: 10px 10px 90px gray;
+        width: 700px;
+        margin-left: 180px;
+        margin-right: 180px;
+        margin-bottom: 100px;
+        padding: 2%;
+        
+    }
+    #full-stack-area{
+        border-left: 10px solid;
+        border-image: linear-gradient( orange, tomato);
+        border-image-slice: 1;
+        border-radius: 8px;
+    }
+    #baby-area{
+        border-left: 10px solid;
+        border-image: linear-gradient( cyan, blue);
+        border-image-slice: 1;
+        border-radius: 8px;
+    }
+    footer p{
+        text-align: center;
+        }
